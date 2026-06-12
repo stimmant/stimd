@@ -1,8 +1,6 @@
 # stimd
 
-A lightweight, native macOS Markdown **viewer** — like Preview.app, but for Markdown.
-Read-only by design: point it at the `.md` files your AI tools generate and read them
-as documents, not source code.
+I wanted a tool for reviewing AI-generated MD files, and found [MacMD](https://macmdviewer.com), but was dismayed to see a price tag like that on something that was clearly just a few Claude prompts. So I decided to just write the prompts myself. I use this tool primarily to review AI generated markdown docs, but also when editing markdown files manually in vim since I'm not an IDE person. Typically when using this with an AI agent, I'll read the document while at the same time dictating feedback using VoiceInk.
 
 Built with SwiftUI + WebKit. Markdown is parsed natively with
 [swift-markdown](https://github.com/swiftlang/swift-markdown) (cmark-gfm), rendered
